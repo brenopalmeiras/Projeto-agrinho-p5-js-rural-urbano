@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+canvas {
+    border: 2px solid #ccc;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: block; /* Remove extra space below canvas */
+}
